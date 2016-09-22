@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/scrollView"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="fill_parent">
 
     <LinearLayout
@@ -18,7 +18,7 @@
             android:layout_marginTop="30dp" />
 
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center_vertical"
             android:layout_marginTop="25dp">
@@ -45,7 +45,7 @@
 
             <TextView
                 android:id="@+id/textMessage"
-                android:layout_width="420dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textTitle"
                 android:layout_centerHorizontal="true"
@@ -57,27 +57,6 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#666666"
                 tools:text="Large Text" />
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/textMessage"
-                android:layout_centerHorizontal="true">
-
-                <TextView
-                    android:id="@+id/checkboxTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:gravity="center"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="#666666"
-                    tools:text="Large Text" />
-
-            </RelativeLayout>
         </RelativeLayout>
 
     </LinearLayout>
